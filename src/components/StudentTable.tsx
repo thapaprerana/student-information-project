@@ -33,6 +33,7 @@ const STUDENTS: Student[] = [
   { id: "ABC-2082-BICTE019", name: "Man Maya Bhatrai", program: "BICTE", year: "2nd Sem"},
   { id: "ABC-2082-BICTE020", name: "Kiran Bhatrai", program: "BICTE", year: "2nd Sem"},
 
+   { id: "ABC-2083-BA01",  name: "Roshan Thapa", program: "BA", year: "1st year" },
 { id: "ABC-2083-BBS080", name: "Aayush Khatri",   program: "BICTE", year: "6th sem" },
 { id: "ABC-2083-BBS071", name: "Manju Shrestha",  program: "BBS", year: "1st year" },
 { id: "ABC-2079-BBS072", name: "Sabin Thapa",     program: "BBS", year: "4rth year" },
@@ -207,8 +208,7 @@ const STUDENTS: Student[] = [
   { id: "ABC-2083-BBA018", name: "Bikash Rai", program: "BBA", year: "1st sem" },
   { id: "ABC-2083-BBA019", name: "Sanjana Shrestha", program: "BBA", year: "1st sem" },
   { id: "ABC-2083-BBA020", name: "Prakash Rana", program: "BBA", year: "1st sem" },
-  
-  { id: "ABC-2083-BA01",  name: "Roshan Thapa", program: "BA", year: "1st year" },
+
   { id: "ABC-2083-BA02",  name: "Suman Rana", program: "BA", year: "1st year" },
   { id: "ABC-2083-BA03",  name: "Asmita Thapa", program: "BA", year: "1st year" },
   { id: "ABC-2083-BA04",  name: "Lily Shrestha", program: "BA", year: "1st year" },

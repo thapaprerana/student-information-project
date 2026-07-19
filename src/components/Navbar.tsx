@@ -30,13 +30,19 @@ export default function Navbar() {
         {/* Logo only - no text label next to it */}
         <Link href="/#home" className="flex items-center">
           <Image
-            src="/images/logo-mark.png"
+            src="/images/logo-full.png"
             alt="Aadikavi Bhanubhakta Campus logo"
             width={64}
             height={64}
             className="h-16 w-16 object-contain"
             priority
           />
+          <span className="leading-tight">
+            <span className="block text-sm font-bold text-blue-900 sm:text-base">
+              Aadikavi Bhanubhakta
+            </span>
+            <span className="block text-xs text-gray-500">Campus</span>
+          </span>
         </Link>
 
         {/* Desktop nav links */}

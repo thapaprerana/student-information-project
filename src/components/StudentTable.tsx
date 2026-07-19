@@ -55,7 +55,26 @@ const STUDENTS: Student[] = [
   { id: "ABC-2083-BA020",  name: "Isha Giri", program: "BA", year: "1st year" },
   { id: "ABC-2083-BA021",  name: "Sonisha Chettri", program: "BA", year: "1st year" },
   { id: "ABC-2083-BA022",  name: "Rita Rana", program: "BA", year: "1st year" },
-
+  { id: "ABC-2082-BICTE01", name: "Kastup Thakuri", program: "BICTE", year: "2nd Sem"},
+  { id: "ABC-2082-BICTE02", name: "Sam Joshi", program: "BICTE", year: "2nd Sem"},
+  { id: "ABC-2082-BICTE03", name: "Hom Bahadur", program: "BICTE", year: "2nd Sem"},
+  { id: "ABC-2082-BICTE04", name: "Mohit Joshi", program: "BICTE", year: "2nd Sem"},
+  { id: "ABC-2082-BICTE05", name: "Sam Bahadur", program: "BICTE", year: "2nd Sem"},
+  { id: "ABC-2082-BICTE06", name: "Biraj Gurung", program: "BICTE", year: "2nd Sem"},
+  { id: "ABC-2082-BICTE07", name: "Sanjok Thapa", program: "BICTE", year: "2nd Sem"},
+  { id: "ABC-2082-BICTE08", name: "Alex B.K", program: "BICTE", year: "2nd Sem"},
+  { id: "ABC-2082-BICTE09", name: "Krishna Thapa", program: "BICTE", year: "2nd Sem"},
+  { id: "ABC-2082-BICTE010", name: "Kumari Shresta", program: "BICTE", year: "2nd Sem"},
+  { id: "ABC-2082-BICTE011", name: "Krishna Tamange", program: "BICTE", year: "2nd Sem"},
+  { id: "ABC-2082-BICTE012", name: "Diwash Thakuri", program: "BICTE", year: "2nd Sem"},
+  { id: "ABC-2082-BICTE013", name: "Krish Sunar", program: "BICTE", year: "2nd Sem"},
+  { id: "ABC-2082-BICTE014", name: "Amrit Gurung", program: "BICTE", year: "2nd Sem"},
+  { id: "ABC-2082-BICTE015", name: "Kushal Karki", program: "BICTE", year: "2nd Sem"},
+  { id: "ABC-2082-BICTE016", name: "Mahesh Shrestha", program: "BICTE", year: "2nd Sem"},
+  { id: "ABC-2082-BICTE017", name: "Krishna Maya Gurung", program: "BICTE", year: "2nd Sem"},
+  { id: "ABC-2082-BICTE018", name: "Fulmaya Rai", program: "BICTE", year: "2nd Sem"},
+  { id: "ABC-2082-BICTE019", name: "Man Maya Bhatrai", program: "BICTE", year: "2nd Sem"},
+  { id: "ABC-2082-BICTE020", name: "Kiran Bhatrai", program: "BICTE", year: "2nd Sem"},
 ];
 
 const PROGRAMS = ["All Programs", ...new Set(STUDENTS.map((s) => s.program))];

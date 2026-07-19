@@ -12,6 +12,119 @@ interface Student {
 
 // Mock data - swap this array for data from your database or API later.
 const STUDENTS: Student[] = [
+ 
+  
+  { id: "ABC-2079-B.edS001", name: "Roshani Karki", program: "B.Ed Science", year: "4th year" },
+  { id: "ABC-2079-B.edS002", name: "Suman Rana", program: "B.Ed Science", year: "4th year" },
+  { id: "ABC-2079-B.edS003", name: "Asmita Gurung", program: "B.Ed Science", year: "4th year" },
+  { id: "ABC-2079-B.edS004", name: "Prakash Thapa", program: "B.Ed Science", year: "4th year" },
+  { id: "ABC-2079-B.edS005", name: "Nisha Basnet", program: "B.Ed Science", year: "4th year" },
+  { id: "ABC-2079-B.edS006", name: "Roshan Magar", program: "B.Ed Science", year: "4th year" },
+  { id: "ABC-2079-B.edS007", name: "Pooja Sharma", program: "B.Ed Science", year: "4th year" },
+  { id: "ABC-2079-B.edS008", name: "Kiran Rai", program: "B.Ed Science", year: "4th year" },
+  { id: "ABC-2079-B.edS009", name: "Sabina Oli", program: "B.Ed Science", year: "4th year" },
+  { id: "ABC-2079-B.edS010", name: "Niraj Karki", program: "B.Ed Science", year: "4th year" },
+
+
+{ id: "ABC-2080-B.edS001", name: "Aayush Adhikari", program: "B.Ed Science", year: "3rd year" },
+{ id: "ABC-2080-B.edS002", name: "Ritika Sharma", program: "B.Ed Science", year: "3rd year" },
+{ id: "ABC-2080-B.edS003", name: "Bibek Magar", program: "B.Ed Science", year: "3rd year" },
+{ id: "ABC-2080-B.edS004", name: "Pooja Karki", program: "B.Ed Science", year: "3rd year" },
+{ id: "ABC-2080-B.edS005", name: "Sujan Rai", program: "B.Ed Science", year: "3rd year" },
+{ id: "ABC-2080-B.edS006", name: "Manisha Thapa", program: "B.Ed Science", year: "3rd year" },
+{ id: "ABC-2080-B.edS007", name: "Roshan BK", program: "B.Ed Science", year: "3rd year" },
+{ id: "ABC-2080-B.edS008", name: "Anjali Gurung", program: "B.Ed Science", year: "3rd year" },
+{ id: "ABC-2080-B.edS009", name: "Prabin Chaudhary", program: "B.Ed Science", year: "3rd year" },
+{ id: "ABC-2080-B.edS010", name: "Sanjana Rana", program: "B.Ed Science", year: "3rd year" },
+
+
+{ id: "ABC-2081-B.edS001", name: "Aarushi Karki", program: "B.Ed Science", year: "2nd year" },
+{ id: "ABC-2081-B.edS002", name: "Manisha Rana", program: "B.Ed Science", year: "2nd year" },
+{ id: "ABC-2081-B.edS003", name: "Roshan Gurung", program: "B.Ed Science", year: "2nd year" },
+{ id: "ABC-2081-B.edS004", name: "Sabina Oli", program: "B.Ed Science", year: "2nd year" },
+{ id: "ABC-2081-B.edS005", name: "Niraj Thapa", program: "B.Ed Science", year: "2nd year" },
+{ id: "ABC-2081-B.edS006", name: "Sushmita Basnet", program: "B.Ed Science", year: "2nd year" },
+{ id: "ABC-2081-B.edS007", name: "Kushal Adhikari", program: "B.Ed Science", year: "2nd year" },
+{ id: "ABC-2081-B.edS008", name: "Ritika Magar", program: "B.Ed Science", year: "2nd year" },
+{ id: "ABC-2081-B.edS009", name: "Prakash Sharma", program: "B.Ed Science", year: "2nd year" },
+{ id: "ABC-2081-B.edS010", name: "Aayusha Gurung", program: "B.Ed Science", year: "2nd year" },
+
+
+{ id: "ABC-2082-B.edS001", name: "Sushmita Karki", program: "B.Ed Science", year: "1st year" },
+{ id: "ABC-2082-B.edS002", name: "Bikash Chaudhary", program: "B.Ed Science", year: "1st year" },
+{ id: "ABC-2082-B.edS003", name: "Anisha Tamang", program: "B.Ed Science", year: "1st year" },
+{ id: "ABC-2082-B.edS004", name: "Prabin BK", program: "B.Ed Science", year: "1st year" },
+{ id: "ABC-2082-B.edS005", name: "Kabita Shrestha", program: "B.Ed Science", year: "1st year" },
+{ id: "ABC-2082-B.edS006", name: "Roshan Rana", program: "B.Ed Science", year: "1st year" },
+{ id: "ABC-2082-B.edS007", name: "Pooja Thapa", program: "B.Ed Science", year: "1st year" },
+{ id: "ABC-2082-B.edS008", name: "Nabaraj Gurung", program: "B.Ed Science", year: "1st year" },
+{ id: "ABC-2082-B.edS009", name: "Asmita Rai", program: "B.Ed Science", year: "1st year" },
+{ id: "ABC-2082-B.edS010", name: "Sujal Karki", program: "B.Ed Science", year: "1st year" },
+
+
+{ id: "ABC-2083-B.edS001", name: "Aarav Sharma", program: "B.Ed Science", year: "1st year" },
+{ id: "ABC-2083-B.edS002", name: "Puja Rana", program: "B.Ed Science", year: "1st year" },
+{ id: "ABC-2083-B.edS003", name: "Kushal Adhikari", program: "B.Ed Science", year: "1st year" },
+{ id: "ABC-2083-B.edS004", name: "Sanjana Gurung", program: "B.Ed Science", year: "1st year" },
+{ id: "ABC-2083-B.edS005", name: "Ramesh Karki", program: "B.Ed Science", year: "1st year" },
+{ id: "ABC-2083-B.edS006", name: "Anjali Basnet", program: "B.Ed Science", year: "1st year" },
+{ id: "ABC-2083-B.edS007", name: "Bibek Thapa", program: "B.Ed Science", year: "1st year" },
+{ id: "ABC-2083-B.edS008", name: "Nisha Sharma", program: "B.Ed Science", year: "1st year" },
+{ id: "ABC-2083-B.edS009", name: "Prerana Oli", program: "B.Ed Science", year: "1st year" },
+{ id: "ABC-2083-B.edS010", name: "Suman Magar", program: "B.Ed Science", year: "1st year" },
+
+
+
+{ id: "ABC-2079-B.edE001", name: "Roshani Karki", program: "B.Ed English", year: "4th year" },
+{ id: "ABC-2079-B.edE002", name: "Suman Rana", program: "B.Ed English", year: "4th year" },
+{ id: "ABC-2079-B.edE003", name: "Asmita Gurung", program: "B.Ed English", year: "4th year" },
+{ id: "ABC-2079-B.edE004", name: "Prakash Thapa", program: "B.Ed English", year: "4th year" },
+{ id: "ABC-2079-B.edE005", name: "Nisha Basnet", program: "B.Ed English", year: "4th year" },
+{ id: "ABC-2079-B.edE006", name: "Roshan Magar", program: "B.Ed English", year: "4th year" },
+{ id: "ABC-2079-B.edE007", name: "Pooja Sharma", program: "B.Ed English", year: "4th year" },
+{ id: "ABC-2079-B.edE008", name: "Kiran Rai", program: "B.Ed English", year: "4th year" },
+
+
+{ id: "ABC-2080-B.edE001", name: "Aayush Adhikari", program: "B.Ed English", year: "3rd year" },
+{ id: "ABC-2080-B.edE002", name: "Ritika Sharma", program: "B.Ed English", year: "3rd year" },
+{ id: "ABC-2080-B.edE003", name: "Bibek Magar", program: "B.Ed English", year: "3rd year" },
+{ id: "ABC-2080-B.edE004", name: "Pooja Karki", program: "B.Ed English", year: "3rd year" },
+{ id: "ABC-2080-B.edE005", name: "Sujan Rai", program: "B.Ed English", year: "3rd year" },
+{ id: "ABC-2080-B.edE006", name: "Manisha Thapa", program: "B.Ed English", year: "3rd year" },
+{ id: "ABC-2080-B.edE007", name: "Roshan BK", program: "B.Ed English", year: "3rd year" },
+{ id: "ABC-2080-B.edE008", name: "Anjali Gurung", program: "B.Ed English", year: "3rd year" },
+{ id: "ABC-2080-B.edE009", name: "Prabin Chaudhary", program: "B.Ed English", year: "3rd year" },
+{ id: "ABC-2080-B.edE010", name: "Sanjana Rana", program: "B.Ed English", year: "3rd year" },
+
+
+{ id: "ABC-2081-B.edE001", name: "Aarushi Karki", program: "B.Ed English", year: "2nd year" },
+{ id: "ABC-2081-B.edE002", name: "Manisha Rana", program: "B.Ed English", year: "2nd year" },
+{ id: "ABC-2081-B.edE003", name: "Roshan Gurung", program: "B.Ed English", year: "2nd year" },
+{ id: "ABC-2081-B.edE004", name: "Sabina Oli", program: "B.Ed English", year: "2nd year" },
+{ id: "ABC-2081-B.edE005", name: "Niraj Thapa", program: "B.Ed English", year: "2nd year" },
+{ id: "ABC-2081-B.edE006", name: "Sushmita Basnet", program: "B.Ed English", year: "2nd year" },
+{ id: "ABC-2081-B.edE007", name: "Kushal Adhikari", program: "B.Ed English", year: "2nd year" },
+
+
+{ id: "ABC-2082-B.edE001", name: "Sushmita Karki", program: "B.Ed English", year: "1st year" },
+{ id: "ABC-2082-B.edE002", name: "Bikash Chaudhary", program: "B.Ed English", year: "1st year" },
+{ id: "ABC-2082-B.edE003", name: "Anisha Tamang", program: "B.Ed English", year: "1st year" },
+{ id: "ABC-2082-B.edE004", name: "Prabin BK", program: "B.Ed English", year: "1st year" },
+{ id: "ABC-2082-B.edE005", name: "Kabita Shrestha", program: "B.Ed English", year: "1st year" },
+{ id: "ABC-2082-B.edE006", name: "Roshan Rana", program: "B.Ed English", year: "1st year" },
+{ id: "ABC-2082-B.edE007", name: "Pooja Thapa", program: "B.Ed English", year: "1st year" },
+{ id: "ABC-2082-B.edE008", name: "Nabaraj Gurung", program: "B.Ed English", year: "1st year" },
+{ id: "ABC-2082-B.edE009", name: "Asmita Rai", program: "B.Ed English", year: "1st year" },
+{ id: "ABC-2082-B.edE010", name: "Sujal Karki", program: "B.Ed English", year: "1st year" },
+{ id: "ABC-2082-B.edE011", name: "Ritika Basnet", program: "B.Ed English", year: "1st year" },
+{ id: "ABC-2082-B.edE012", name: "Prakash Oli", program: "B.Ed English", year: "1st year" },
+
+{ id: "ABC-2083-B.edE001", name: "Aarav Sharma", program: "B.Ed English", year: "1st year" },
+{ id: "ABC-2083-B.edE002", name: "Puja Rana", program: "B.Ed English", year: "1st year" },
+{ id: "ABC-2083-B.edE003", name: "Kushal Adhikari", program: "B.Ed English", year: "1st year" },
+{ id: "ABC-2083-B.edE004", name: "Sanjana Gurung", program: "B.Ed English", year: "1st year" },
+{ id: "ABC-2083-B.edE005", name: "Suman Magar", program: "B.Ed English", year: "1st year" },
+  
 
   { id: "ABC-2082-BICTE01", name: "Kastup Thakuri", program: "BICTE", year: "2nd Sem"},
   { id: "ABC-2082-BICTE02", name: "Sam Joshi", program: "BICTE", year: "2nd Sem"},

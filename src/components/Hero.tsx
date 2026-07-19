@@ -43,7 +43,7 @@ export default function Hero() {
             href="/#faculty"
             className="rounded-md bg-white px-6 py-3 text-sm font-semibold text-[#0E76BD] shadow-sm transition-transform hover:scale-[1.02]"
           >
-            Admissions Open 2024
+            Admissions Open 2026
           </Link>
           <button
             type="button"

@@ -24,13 +24,13 @@ const STUDENTS: Student[] = [
   { id: "ABC-2081-010", name: "Manisha Pandey", program: "BBA", year: "4th sem" },
   { id: "ABC-2081-011", name: "Suresh Gautam", program: "B.Ed Math", year: "1st Year" },
   { id: "ABC-2081-012", name: "Puja Regmi", program: "BA", year: "2nd Year" },
-  { id: "ABC-2080-005", name: "Bidika Shrestha", program: "BICTE", year: "3rd sem" },
-  { id: "ABC-2080-006", name: "Binita Shrestha", program: "BICTE", year: "3rd sem" },
-  { id: "ABC-2080-002", name: "Anita Adhikari", program: "BICTE", year: "3rd sem" },
-  { id: "ABC-2080-014", name: "Mandira Kunwar", program: "BICTE", year: "3rd sem" },
-  { id: "ABC-2080-018", name: "Nisha Giri", program: "BICTE", year: "3rd sem" },
-  { id: "ABC-2080-019", name: "Prerana Thapa", program: "BICTE", year: "3rd sem" },
-  { id: "ABC-2080-017", name: "Nabaraj Thapa", program: "BICTE", year: "3rd sem" },
+  { id: "ABC-2080-005", name: "Bidika Shrestha", program: "BICTE", year: "6th sem" },
+  { id: "ABC-2080-006", name: "Binita Shrestha", program: "BICTE", year: "6th sem" },
+  { id: "ABC-2080-002", name: "Anita Adhikari", program: "BICTE", year: "6th sem" },
+  { id: "ABC-2080-014", name: "Mandira Kunwar", program: "BICTE", year: "6th sem" },
+  { id: "ABC-2080-018", name: "Nisha Giri", program: "BICTE", year: "6th sem" },
+  { id: "ABC-2080-019", name: "Prerana Thapa", program: "BICTE", year: "6th sem" },
+  { id: "ABC-2080-017", name: "Nabaraj Thapa", program: "BICTE", year: "6th sem" },
 ];
 
 const PROGRAMS = ["All Programs", ...new Set(STUDENTS.map((s) => s.program))];

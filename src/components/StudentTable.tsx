@@ -31,6 +31,7 @@ const STUDENTS: Student[] = [
   { id: "ABC-2080-018", name: "Nisha Giri", program: "BICTE", year: "6th sem" },
   { id: "ABC-2080-019", name: "Prerana Thapa", program: "BICTE", year: "6th sem" },
   { id: "ABC-2080-017", name: "Nabaraj Thapa", program: "BICTE", year: "6th sem" },
+  { id: "ABC-2079-011", name: "Ram Thapa", program: "BA", year: "2nd year"},
 ];
 
 const PROGRAMS = ["All Programs", ...new Set(STUDENTS.map((s) => s.program))];
